@@ -36,7 +36,6 @@ export default function encodeLine(str) {
     : (result += `${stack.length}${stack[0]}`);
 
   return result;
-
   // const arr = str.split('');
   // let collectedStr = '';
 
