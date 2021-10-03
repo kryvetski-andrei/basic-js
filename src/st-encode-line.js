@@ -36,21 +36,4 @@ export default function encodeLine(str) {
     : (result += `${stack.length}${stack[0]}`);
 
   return result;
-  // const arr = str.split('');
-  // let collectedStr = '';
-
-  // const obj = arr.reduce((count, letter) => {
-
-  //   count[letter] = (count[letter] || 0) + 1;
-  //   // console.log(count[letter], 'count letter')
-  //   // console.log(count)
-  //   return count;
-  // }, {})
-
-  // console.log(obj)
-
-  // for (let letter in obj) {
-  //   collectedStr += obj[letter] + letter;
-  // }
-  // return collectedStr;
 }
